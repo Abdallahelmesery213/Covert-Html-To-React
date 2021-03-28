@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb35175e.chunk.css",
-    "main.js": "/static/js/main.565a8553.chunk.js",
-    "main.js.map": "/static/js/main.565a8553.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.de0bd74f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.de0bd74f.js.map",
-    "static/js/2.6bbba3f9.chunk.js": "/static/js/2.6bbba3f9.chunk.js",
-    "static/js/2.6bbba3f9.chunk.js.map": "/static/js/2.6bbba3f9.chunk.js.map",
-    "static/js/3.38b91235.chunk.js": "/static/js/3.38b91235.chunk.js",
-    "static/js/3.38b91235.chunk.js.map": "/static/js/3.38b91235.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.bb35175e.chunk.css.map": "/static/css/main.bb35175e.chunk.css.map",
-    "static/js/2.6bbba3f9.chunk.js.LICENSE.txt": "/static/js/2.6bbba3f9.chunk.js.LICENSE.txt"
+    "main.css": "/Abdallahelmesery213/Covert-Html-To-React/static/css/main.bb35175e.chunk.css",
+    "main.js": "/Abdallahelmesery213/Covert-Html-To-React/static/js/main.565a8553.chunk.js",
+    "main.js.map": "/Abdallahelmesery213/Covert-Html-To-React/static/js/main.565a8553.chunk.js.map",
+    "runtime-main.js": "/Abdallahelmesery213/Covert-Html-To-React/static/js/runtime-main.e265dd72.js",
+    "runtime-main.js.map": "/Abdallahelmesery213/Covert-Html-To-React/static/js/runtime-main.e265dd72.js.map",
+    "static/js/2.db61ee03.chunk.js": "/Abdallahelmesery213/Covert-Html-To-React/static/js/2.db61ee03.chunk.js",
+    "static/js/2.db61ee03.chunk.js.map": "/Abdallahelmesery213/Covert-Html-To-React/static/js/2.db61ee03.chunk.js.map",
+    "static/js/3.38b91235.chunk.js": "/Abdallahelmesery213/Covert-Html-To-React/static/js/3.38b91235.chunk.js",
+    "static/js/3.38b91235.chunk.js.map": "/Abdallahelmesery213/Covert-Html-To-React/static/js/3.38b91235.chunk.js.map",
+    "index.html": "/Abdallahelmesery213/Covert-Html-To-React/index.html",
+    "static/css/main.bb35175e.chunk.css.map": "/Abdallahelmesery213/Covert-Html-To-React/static/css/main.bb35175e.chunk.css.map",
+    "static/js/2.db61ee03.chunk.js.LICENSE.txt": "/Abdallahelmesery213/Covert-Html-To-React/static/js/2.db61ee03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.de0bd74f.js",
-    "static/js/2.6bbba3f9.chunk.js",
+    "static/js/runtime-main.e265dd72.js",
+    "static/js/2.db61ee03.chunk.js",
     "static/css/main.bb35175e.chunk.css",
     "static/js/main.565a8553.chunk.js"
   ]
