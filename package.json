@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/Abdallahelmesery213/Covert-Html-To-React",
+  "homepage": "https://github.com/Abdallahelmesery213/Covert-Html-To-React",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +17,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
   }
 }

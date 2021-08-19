@@ -1,6 +1,8 @@
 
 import React from 'react';
 import axios from 'axios';
+import data from '../../data.json'
+
 import {ProfileSkills,Profil,ProfileTitle,ProfileList,ProfileItem,ProfSpan,SpanWeb,SkillSection,SkillTitle,SkillsDesc,Bar,SpanTitle,Perc,Parent,ParentSpan} from './style.js';
 
 class Profile extends React.Component {
@@ -8,10 +10,10 @@ class Profile extends React.Component {
         profile : []
     }
     componentDidMount () {
-        axios.get('js/data.json').then(res => {this.setState({profile:res.data.profile})})
+        axios.get( `${data}`).then(res => {this.setState({profile:res.data.profile})})
     }
     render() {
-        const {profile} = this.state;
+        const profile = data.profile;
         const profList = profile.map( (item) => {
             return (
                 <Bar key={item.id}>

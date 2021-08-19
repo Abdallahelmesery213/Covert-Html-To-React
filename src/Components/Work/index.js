@@ -2,15 +2,16 @@
 import  React from 'react';
 import {WorkSection,WorkTitle,Span,Part,Icon,PartTitle,Line,Dsc} from './style.js'
 import axios from 'axios'
+import data from '../../data.json'
 class Work extends React.Component {
     state = {
         works : []
     }
     componentDidMount () {
-        axios.get('js/data.json').then (res => {this.setState({works:res.data.works})})
+        axios.get(`${data}`).then (res => {this.setState({works:res.data.works})})
     }
     render (){
-        const {works} = this.state;
+        const works = data.works;
         const worksList = works.map( (imageitem) => {
             return ( 
                 

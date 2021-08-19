@@ -2,13 +2,14 @@
 import  React from 'react';
 import { useState , useEffect } from 'react';
 import axios from 'axios';
+import data from'../../data.json';
 import {PortSection, PortTitle,PortSpan,PortList,PortItem,Box,Image,Overlay,OvSpan} from './style';
 const Portfolio = () => {
-    const [image , setImages] = useState( [] );
+    const [images , setImages] = useState( [] );  // Hooks => useState
     useEffect( () => {
-        axios.get('js/data.json').then ( res => {setImages( res.data.portfolio)})
-    } , [])
-    const PortImages = image.map( (item) => {
+        axios.get(`${data}`).then ( res => {setImages( res.data.portfolio)})
+    } , []);
+    const PortImages = images.map( (item) => {
         return (
             <Box key={item.id}>
                     <Image src={item.image} alt="" />

@@ -1,16 +1,17 @@
 
 import React from 'react';
 import axios from 'axios';
+import data from '../../data.json';
 import {SocialSection , Social , Icon , Prag , Span1,Span2} from './style';
 class SocialMedia extends React.Component {
     state = {
         social : []
     }
     componentDidMount () {
-        axios.get('js/data.json').then(res => {this.setState({social:res.data.social})})
+        axios.get(`${data}`).then(res => {this.setState({social:res.data.social})})
     }
     render () {
-        const {social} = this.state;
+        const social = data.social;
         const socialList = social.map ( (item) => {
             return (
                 <Social key={item.id} itm={item.id}>

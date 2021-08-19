@@ -1,8 +1,8 @@
 import styled  from 'styled-components';
-
+import imge from '../../images/about-bg.jpg'
 export const Creative = styled.div `
     height: 500px;
-    background: url('../images/creative/about-bg.jpg');
+    background-image:url(${imge});
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
